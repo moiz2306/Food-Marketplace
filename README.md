@@ -1,24 +1,15 @@
 # Food-Market
 
-### Python Django Multi-vendor Restaurant Marketplace project
-![logo](/static/logo/loveForFoodLogo.png)
-![Paid-badge](/static/images/paid.png)
-
-- A live demo can be found [here](https://loveforfood.ml/)
-
-- A GitHub repository can be found [here](https://github.com/Eva-Kuk/love-for-food)
 
 ## Overview
-![home-1](/static/images/home-1.png)
-![home-2](/static/images/home-2.png)
-![home-3](/static/images/home-3.png)
-This is a project I built while learning new Django features on a Udemy course.
+![home-1](foodmarket/foodmarket/static/images/home-1.png)
+![home-2](foodmarket/foodmarket/static/images/home-2.png)
+![home-foot](foodmarket/foodmarket/static/images/home-foot.png)
 
-The purpose of this project was to build a multi-vendor restaurant Marketplace in Ireland where the Restaurants Owners can register, add, edit/delete their restaurant menu on their Restaurant profile, receive orders from customers, see their Total earnings and revenue payment, and also is for customers who can register, set their profile, search for their favorite restaurants nearby, order and purchase food from their favorite restaurants.
+The purpose of this project was to build a multi-vendor restaurant Marketplace where the Restaurants Owners can register, add, edit/delete their restaurant menu on their Restaurant profile, receive orders from customers, see their Total earnings and revenue payment, and also is for customers who can register, set their profile, search for their favorite restaurants nearby, order and purchase food from their favorite restaurants.
 
 The project used a ready-made FoodBakery template from [themeforest](https://themeforest.net/) customized as the goal was to focus on the backend.
-The project uses Postgres Database
-The project is deployed on ubuntu Linode with Nginx and Gunicorn
+The project uses Postgres Database.
 The project contains:
 ## HOME page
 - search box searching restaurants by restaurant name or food name keyword
@@ -83,6 +74,3 @@ For the Customer and the Restaurant/Vendor account, the same contains an email a
 - ManyToMany Relationships
 - Integrated Email Templates
 - User Profile Settings
-- Deployment on Ubuntu Linode hosting server
-- Gunicorn and Nginx configuration
-- Custom domain name with certbot SSL certificate configuration
