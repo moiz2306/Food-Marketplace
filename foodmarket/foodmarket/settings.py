@@ -170,8 +170,6 @@ GOOGLE_API_KEY = os.environ.get('GOOGLE_API_KEY')
 if DEBUG == True:
     GEOS_LIBRARY_PATH = '/opt/homebrew/Cellar/geos/3.12.0/lib/libgeos_c.dylib'
     GDAL_LIBRARY_PATH = '/opt/homebrew/Cellar/gdal/3.7.2/lib/libgdal.dylib'
-    # GDAL_LIBRARY_PATH = os.path.join('/opt/homebrew/Cellar/gdal/3.7.2', 'lib', 'libgdal.dylib')
-#     os.environ['PATH'] = os.path.join('/opt/homebrew/Cellar/gdal/3.7.2', 'lib') + ':' + os.environ['PATH']
 
 # PayPAl configuration
 PAYPAL_CLIENT_ID = os.environ.get('PAYPAL_CLIENT_ID')
