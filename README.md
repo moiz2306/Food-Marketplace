@@ -8,7 +8,6 @@
 
 The purpose of this project was to build a multi-vendor restaurant Marketplace where the Restaurants Owners can register, add, edit/delete their restaurant menu on their Restaurant profile, receive orders from customers, see their Total earnings and revenue payment, and also is for customers who can register, set their profile, search for their favorite restaurants nearby, order and purchase food from their favorite restaurants.
 
-The project used a ready-made FoodBakery template from [themeforest](https://themeforest.net/) customized as the goal was to focus on the backend.
 The project uses Postgres Database.
 The project contains:
 ## HOME page
